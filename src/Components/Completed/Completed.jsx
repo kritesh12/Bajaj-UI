@@ -11,7 +11,7 @@ const Completed = () =>{
         <div className="Completed-box d-flex-column align-items-center mt-3">
             <div className="Completed-body d-flex flex-column align-items-center text-center mt-5">
                 <div>
-                {data.success ? <img src="../public/happy-face-2.svg" alt="logo" />
+                {data.success ? <img src="./happy-face-2.svg" alt="logo" />
                 : <img src='./sad-face.svg' alt='logo'/>}
                 </div>
                 <div className='Completed-Streak mt-5'>
