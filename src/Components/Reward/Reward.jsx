@@ -1,4 +1,6 @@
+import { Link } from 'react-router-dom'
 import './Reward.css'
+
 
 const Reward = () => {
     return (
@@ -45,13 +47,13 @@ const Reward = () => {
 <div>
       <div className="rewardfoot d-flex flex-column align-items-center">
         
-        <div className="rewardbutton d-flex justify-content-center mt-3 align-items-center">PLAY NOW</div>
+        <div className="rewardbutton d-flex justify-content-center mt-3 align-items-center"><Link to="/NewUser">PLAY NOW</Link></div>
         <div className="rewardtext-black mb-4 ">By proceeding, you agree to the<span className="rewardterms"> Terms & Conditions</span> of Bajaj Finance Ltd.</div>
         </div>
       </div>
       </div>
     
-
+<link rel="stylesheet" href="" />
         </div>
     )
 }
