@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    height: 100px;
+    background-color: #002953;
+}
+
+.Streak1-main{
+    background-color: #FFF2EA;
+    text-align: center;
+}
+
+.Streak1how-to-play{
+    width: 100%;
+    color: #FF8900;
+}
+
+.Streak1challenge-1,.Streak1challenge-section{
+    width: 100%;
+    margin: 0 auto;
+    /* gap: 10px; */
+}
+
+
+.Streak1icons{
+    gap: 8px;
+    width: 100%;
+    /* border: 1px solid; */
+}
+
+.Streak1check-now{
+    font-weight: bolder;
+    color: #FF8900;
+    /* border: 1px solid blue; */
+    text-align: center;
+    border-radius: 30px;
+    background-color: #FFF2EA;
+    width: 150px;
+    align-self: center;
+}
+
+.Streak1sand-watch{
+    font-size: 20px;
+    gap: 10px;
+}
+
+.Streak1challenge-1-text{
+    font-size: 30px;
+}
+
+.Streak1challenge-2{
+    font-size: 30px;
+    width: 100%;
+    margin: 0 auto;
+    font-weight: 700;
+    /* border: 1px solid; */
+}
+
+.Streak1progress{
+    width: 100%;
+    border: 1px solid #FF8900;
+    border-radius: 10px;
+}
+
+.Streak1visit{
+    width: 500px;
+    border: 1px solid #00846F;
+}
+
+.Streak1Days10{
+    height: 60px;
+}
+
+.Streak1completed{
+    /* border: 1px solid ; */
+    background-color: #00846F;
+    color: #FFF2EA;
+    border-radius: 4px;
+    font-size: 10px;
+}
+
+.Streak110{
+    color: #FF8900;
+    font-size: 28px;
+}

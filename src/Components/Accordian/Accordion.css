@@ -1,0 +1,26 @@
+
+.AccordionBtn{
+    /* padding: 8px 20px; */
+    background-color: #FFF2EA;
+    color: #FF8900;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    /* width: 100%; */
+    font-weight: bold;
+ }
+
+ .Accordionstars{
+   text-align: justify;
+ }
+ p {
+    font-size: 20px;
+    margin-top: 20px;
+ }
+
+ AccordionBtn:active {
+   transform: scale(0.95);
+}
+AccordionBtn:focus {
+   outline: none;
+}

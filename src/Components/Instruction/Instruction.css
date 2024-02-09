@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    height: 100px;
+    background-color: #002953;
+}
+
+.Instruction-main{
+    background-color: #FFF2EA;
+    text-align: center;
+}
+
+.Instructionhow-to-play{
+    width: 100%;
+    color: #FF8900;
+    background-color: #FFF2EA;
+}
+
+.Instructionicons{
+    /* gap: 1%; */
+    width: 100%;
+    /* border: 1px solid; */
+}
+
+.Instructionprogress{
+    width: 100%;
+    border: 1px solid #FF8900;
+    border-radius: 10px;
+}
+
+.Instructionstars {
+    gap: 16px;
+    width: 100%;
+    font-size: 14px;
+    background-color: #FFF2EA;
+}
+
+.blue-star,
+.purple-star,
+.green-star {
+  gap: 15px;
+  /* border: 1px solid red; */
+}

@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    height: 100px;
+    background-color: #002953;
+}
+
+.NewUser-main{
+    background-color: #FFF2EA;
+    text-align: center;
+}
+
+.NewUserhow-to-play{
+    width: 100%;
+    color: #FF8900;
+}
+
+.NewUserchallenge-1,.NewUserchallenge-section{
+    width: 100%;
+    margin: 0 auto;
+    /* gap: 10px; */
+}
+
+.NewUsericons{
+    /* gap: 1%; */
+    width: 100%;
+    /* border: 1px solid; */
+}
+
+.NewUsercheck-now{
+    font-weight: bolder;
+    color: #FF8900;
+    /* border: 1px solid blue; */
+    text-align: center;
+    border-radius: 30px;
+    background-color: #FFF2EA;
+    width: 80%;
+    align-self: center;
+}
+
+.NewUsersand-watch{
+    font-size: 20px;
+    gap: 1%;
+}
+
+.NewUserchallenge-1-text{
+    font-size: 30px;
+    width: 100%;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.NewUserchallenge-2{
+    font-size: 30px;
+    width: 100%;
+    margin: 0 auto;
+    font-weight: bold;
+    /* border: 1px solid; */
+}
+
+.NewUserprogress{
+    width: 100%;
+    border: 1px solid #FF8900;
+    border-radius: 10px;
+}
+
+.NewUservisit{
+    width: 90%;
+}
+
+/* .NewUserDays10{
+    height: 60px;
+    
+} */
+
+.NewUser10{
+    color: #FF8F00;
+    font-size: 28px;
+    
+}
+
