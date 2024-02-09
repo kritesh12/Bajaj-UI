@@ -53,6 +53,11 @@ header{
     font-size: 30px;
 }
 
+.Streak4challenge-1-text a{
+    text-decoration: none;
+    color: black;
+}
+
 .Streak4challenge-2{
     font-size: 30px;
     width: 100%;

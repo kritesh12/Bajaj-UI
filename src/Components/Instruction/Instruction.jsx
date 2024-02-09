@@ -1,6 +1,7 @@
 import './Instruction.css'
 import ProgressBar from 'react-bootstrap/ProgressBar';
 import Accordion from '../Accordian/Accordion';
+import { Link } from 'react-router-dom';
 
 const Instruction = () => {
 
@@ -11,7 +12,7 @@ const Instruction = () => {
 
             <header>
             </header>
-            <main className='Instruction-main d-flex flex-column align-items-center justify-content-center p-1'>
+            <main className='Instruction-main d-flex flex-column align-items-center justify-content-center p-2'>
                 <div>
                     <h2>Streak Challenge is here!</h2>
                 </div>
@@ -21,7 +22,7 @@ const Instruction = () => {
                 <div className='mb-5'>
                     <img src="./Bimg.svg" alt="logo" />
                 </div>
-                <div className='Instructionicons d-flex flex-row justify-content-around'>
+                <div className='Instructionicons d-flex flex-row justify-content-around p-2'>
                     <div><img src="./small-game-icon.svg" alt="logo" /></div>
                     <div><img src="./small-pay-icon.svg" alt="logo" /></div>
                     <div><img src="./small-id-icon.svg" alt="logo" /></div>
@@ -47,7 +48,7 @@ const Instruction = () => {
                         <div className='fw-bold ms-1'>Open My Zone</div>
                         <div className='d-flex flex-row justify-content-between'>
                             <div className='ms-1'>Lorem ipsum lorem ipsum</div>
-                            <div className='NewUsercheck-now  fw-bold'>Check now</div>
+                            <div className='Instructioncheck-now  fw-bold'><Link to='/Streak1'>Check now</Link></div>
                         </div>
                     </div>
                 </div>

@@ -45,7 +45,12 @@
     background-color: #FF6700;
     border-radius: 20px;
     color: #FFF;
-  
+  }
+  .rewardbutton a{
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
+
   }
   
   .rewardStreak,

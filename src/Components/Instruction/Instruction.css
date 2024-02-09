@@ -46,3 +46,9 @@ header{
   gap: 15px;
   /* border: 1px solid red; */
 }
+
+.Instructioncheck-now a{
+    text-decoration: none;
+    color: #FF8900;
+    background-color: #FFF2EA;
+}

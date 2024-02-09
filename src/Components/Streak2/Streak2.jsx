@@ -1,6 +1,7 @@
 import Overlay from '../Overlay/Overlay';
 import './Streak2.css'
 import ProgressBar from 'react-bootstrap/ProgressBar';
+import { Link } from 'react-router-dom';
 
 const Streak2 = () => {
 
@@ -46,6 +47,7 @@ const Streak2 = () => {
                 <div className='Streak2challenge-1-text fw-bold me-5 mb-3 p-2'>
                     Challenge 1
                 </div>
+                
                 <div className='Streak2challenge-1 d-flex flex-row justify-content-between p-2'>
                     <div className='Streak2challenge-next d-flex justify-content-center border border-1'>
                         <img src="./CompletedgameIcon.svg" alt="logo" /></div>
@@ -59,6 +61,7 @@ const Streak2 = () => {
                         </div>
                     </div>
                 </div>
+                
                 <div className='Streak2challenge-1-text fw-bold me-5 mb-3 '>
 
                 </div>
@@ -76,7 +79,7 @@ const Streak2 = () => {
                 {/* <hr /> */}
                 <footer>
                     <div className='Streak2challenge-2 mb-3 p-2'>
-                        Challenge 2
+                    <Link to='/Streak3'> Challenge 2</Link>
                     </div>
                     <Overlay />
                 </footer>

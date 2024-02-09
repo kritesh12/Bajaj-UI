@@ -1,6 +1,7 @@
 import './NewUser.css'
 import ProgressBar from 'react-bootstrap/ProgressBar';
 import Overlay from '../Overlay/Overlay';
+import { Link } from 'react-router-dom';
 
 const NewUser = () => {
 
@@ -8,7 +9,7 @@ const NewUser = () => {
         <div>
             <header>
             </header>
-            <main className='NewUser-main d-flex flex-column align-items-center justify-content-center p-1'>
+            <main className='NewUser-main d-flex flex-column align-items-center justify-content-center p-2'>
                 <div>
                     <h2>Streak Challenge is here!</h2>
                 </div>
@@ -18,7 +19,7 @@ const NewUser = () => {
                 <div className='mb-5'>
                     <img src="./Bimg.svg" alt="logo" />
                 </div>
-                <div className='NewUsericons d-flex flex-row justify-content-around'>
+                <div className='NewUsericons d-flex flex-row justify-content-around p-2'>
                     <div><img src="./small-game-icon.svg" alt="logo" /></div>
                     <div><img src="./small-pay-icon.svg" alt="logo" /></div>
                     <div><img src="./small-id-icon.svg" alt="logo" /></div>
@@ -64,7 +65,7 @@ const NewUser = () => {
                         <div className='fw-bold ms-1'>Take a Quiz</div>
                         <div className='d-flex flex-row justify-content-between'>
                             <div className='ms-1'>Lorem ipsum lorem ipsum</div>
-                            <div className='NewUsercheck-now ms-3 fw-bold'>Play now</div>
+                            <div className='NewUserplay-now ms-3 fw-bold'><Link to="/Instruction">PLAY NOW</Link></div>
                         </div>
                     </div>
                 </div>

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './Streak3.css'
 import ProgressBar from 'react-bootstrap/ProgressBar';
 
@@ -85,7 +86,7 @@ const Streak3 = () => {
                             <div className='fw-bold ms-1'>Take a Quiz</div>
                             <div className='d-flex flex-row justify-content-between'>
                                 <div className='ms-1'>Lorem ipsum lorem ipsum</div>
-                                <div className='Streak-3play-now ms-3 fw-bold'>Play now</div>
+                                <div className='Streak-3play-now ms-3 fw-bold'><Link to='/Streak4'>Play now</Link></div>
                             </div>
                         </div>
                     </div>

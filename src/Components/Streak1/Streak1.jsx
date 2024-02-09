@@ -1,6 +1,8 @@
 import './Streak1.css'
 import ProgressBar from 'react-bootstrap/ProgressBar';
 import Overlay from '../Overlay/Overlay';
+import { Link } from 'react-router-dom';
+
 
 const Streak1 = () => {
 
@@ -69,7 +71,7 @@ const Streak1 = () => {
                         <div className='fw-bold ms-1'>Quiz</div>
                         <div className='d-flex flex-row justify-content-between'>
                             <div className='ms-1'>Lorem ipsum lorem ipsum</div>
-                            <div className='Streak1check-now ms-3 fw-bold'>Play now</div>
+                            <div className='Streak1check-now ms-3 fw-bold'><Link to='/Streak2'>Play now</Link></div>
                         </div>
                     </div>
                 </div>

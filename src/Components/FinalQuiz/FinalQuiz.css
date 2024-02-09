@@ -21,3 +21,10 @@
 .FinalQuizQues-ans{
     width: 100%;
 }
+
+.FinalQuizbutton a{
+    border: none;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold;
+}

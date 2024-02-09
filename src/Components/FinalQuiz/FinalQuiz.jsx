@@ -1,5 +1,6 @@
 import './FinalQuiz.css'
 import Buttons from '../Button/Buttons';
+import { Link } from 'react-router-dom';
 
 const FinalQuiz = () => {
     return(
@@ -30,9 +31,10 @@ const FinalQuiz = () => {
             </div>
 
         </div>
-        <div>
-           
+        <div className='FinalQuizbutton'>
+           <Link to='/Completed'>
             <Buttons bname='EXPLORE MORE'/>
+            </Link>
             
         </div>
 

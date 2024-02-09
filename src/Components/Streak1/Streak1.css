@@ -88,3 +88,8 @@ header{
     color: #FF8900;
     font-size: 28px;
 }
+
+.Streak1check-now a{
+    text-decoration: none;
+    color: #FF8900;
+}

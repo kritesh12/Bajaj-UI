@@ -43,6 +43,24 @@ header{
     align-self: center;
 }
 
+.NewUserplay-now{
+    font-weight: bolder;
+    color: #FFF;
+    /* border: 1px solid blue; */
+    text-align: center;
+    border-radius: 30px;
+    background-color: #66666687;
+    width: 80%;
+    align-self: center;
+}
+
+.NewUserplay-now a{
+    text-decoration: none;
+    color: #FFF;
+    /* background: rgba(102, 102, 102, 0.53); */
+    
+}
+
 .NewUsersand-watch{
     font-size: 20px;
     gap: 1%;

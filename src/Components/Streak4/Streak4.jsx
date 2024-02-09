@@ -1,5 +1,6 @@
 import './Streak4.css'
 import Buttons from '../Button/Buttons';
+import { Link } from 'react-router-dom';
 
 
 const Streak4 = () => {
@@ -66,7 +67,7 @@ const Streak4 = () => {
 
                 <footer>
                     <div className='Streak4challenge-1-text fw-bold me-5 mb-3 p-2'>
-                        Challenge 2
+                      <Link to='/FinalQuiz'>Challenge 2</Link>
                     </div>
 
                     <div className='Streak4challenge-1 d-flex flex-row justify-content-between p-2'>

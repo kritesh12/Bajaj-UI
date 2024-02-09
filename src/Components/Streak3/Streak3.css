@@ -35,6 +35,17 @@ header{
 
 .Streak-3check-now{
     font-weight: bolder;
+    color: #FF8900;
+    /* border: 1px solid blue; */
+    text-align: center;
+    border-radius: 30px;
+    background-color: #FFF2EA;
+    width: 150px;
+    align-self: center;
+}
+
+.Streak-3play-now{
+    font-weight: bolder;
     color: #FFF;
     /* border: 1px solid blue; */
     text-align: center;
@@ -44,15 +55,10 @@ header{
     align-self: center;
 }
 
-.Streak-3play-now{
-    font-weight: bolder;
-    color: #FF8900;
-    /* border: 1px solid blue; */
-    text-align: center;
-    border-radius: 30px;
-    background-color: #FFF2EA;
-    width: 150px;
-    align-self: center;
+.Streak-3play-now a{
+    text-decoration: none;
+    color: #FFF;
+
 }
 
 .Streak3sand-watch{
