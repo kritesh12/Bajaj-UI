@@ -17,7 +17,7 @@ function Accordion()
             <div>
               
                <div className='d-flex align-items-center justify-content-between'>
-               <button onClick={() => handleClick()} className='AccordionBtn'>How to play</button>
+               <div onClick={() => handleClick()} className='AccordionBtn'>How to play</div>
                <div>&or;</div>          
                </div>
                {active && <div>
