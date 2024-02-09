@@ -17,14 +17,14 @@ const Streak4 = () => {
                     <p>Complete challenges and unlock exciting rewards</p>
                 </div>
                 <div className='mb-3'>
-                    <img src="../public/Bimg.svg" alt="logo" />
+                    <img src="./Bimg.svg" alt="logo" />
                 </div>
                 {/* <div className='icons d-flex flex-row justify-content-around'>
-                    <div><img src="../public/Streak2-tick.svg" alt="logo" /></div>
-                    <div><img src="../public/Streak2-pay.svg" alt="logo" /></div>
-                    <div><img src="../public/small-id-icon.svg" alt="logo" /></div>
-                    <div><img src="../public/small-trophy-icon.svg" alt="logo" /></div>
-                    <div><img src="../public/small-percent-icon.svg" alt="logo" /></div>
+                    <div><img src="./Streak2-tick.svg" alt="logo" /></div>
+                    <div><img src="./Streak2-pay.svg" alt="logo" /></div>
+                    <div><img src="./small-id-icon.svg" alt="logo" /></div>
+                    <div><img src="./small-trophy-icon.svg" alt="logo" /></div>
+                    <div><img src="./small-percent-icon.svg" alt="logo" /></div>
                 </div> */}
                 <div className='text-white mb-3'>
                     <Buttons bname='EXPLORE MORE GAMES' />
@@ -37,7 +37,7 @@ const Streak4 = () => {
             </main>
             <div className="Streak4sand-watch d-flex flex-row justify-content-center align-items-center fw-bold border border-1">
                 <div>
-                    <img src="../public/sand-watch.svg" alt="logo" />
+                    <img src="./sand-watch.svg" alt="logo" />
                 </div>
                 <div className='Streak4Days10 mt-3'>
                 You have <span className='Streak410'>0</span> days to complete!
@@ -49,7 +49,7 @@ const Streak4 = () => {
                 </div>
                 <div className='Streak4challenge-1 d-flex flex-row justify-content-between p-2'>
                         <div className='Streak4challenge-next d-flex justify-content-center border border-1'>
-                            <img src="../public/CompletedgameIcon.svg" alt="logo" /></div>
+                            <img src="./CompletedgameIcon.svg" alt="logo" /></div>
                         <div className='Streak4visit Streak4visit1 d-flex flex-column justify-content-around '>
                             <div className='d-flex flex-row justify-content-between me-1'>
                                 <div className='fw-bold ms-1'>Pay via UPI</div>
@@ -71,7 +71,7 @@ const Streak4 = () => {
 
                     <div className='Streak4challenge-1 d-flex flex-row justify-content-between p-2'>
                     <div className='Streak4challenge-next d-flex justify-content-center border border-1'>
-                        <img src="../public/CompletedgameIcon.svg" alt="logo" /></div>
+                        <img src="./CompletedgameIcon.svg" alt="logo" /></div>
                     <div className='Streak4visit d-flex flex-column justify-content-around '>
                         <div className='d-flex flex-row justify-content-between me-1'>
                             <div className='fw-bold ms-1'>Open My Zone</div>
@@ -89,7 +89,7 @@ const Streak4 = () => {
 
                     {/* <div className='challenge-1 d-flex flex-row justify-content-between p-2'>
                         <div className='d-flex justify-content-center border border-1'>
-                            <img src="../public/Lock.svg" alt="logo" /></div>
+                            <img src="./Lock.svg" alt="logo" /></div>
                         <div className='visit d-flex flex-column justify-content-around border border-1'>
                             <div className='fw-bold ms-1'>Take a Quiz</div>
                             <div className='d-flex flex-row justify-content-between'>

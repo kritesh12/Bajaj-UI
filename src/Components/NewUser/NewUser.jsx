@@ -16,14 +16,14 @@ const NewUser = () => {
                     <p>Complete challenges and unlock exciting rewards</p>
                 </div>
                 <div className='mb-5'>
-                    <img src="../public/Bimg.svg" alt="logo" />
+                    <img src="./Bimg.svg" alt="logo" />
                 </div>
                 <div className='NewUsericons d-flex flex-row justify-content-around'>
-                    <div><img src="../public/small-game-icon.svg" alt="logo" /></div>
-                    <div><img src="../public/small-pay-icon.svg" alt="logo" /></div>
-                    <div><img src="../public/small-id-icon.svg" alt="logo" /></div>
-                    <div><img src="../public/small-trophy-icon.svg" alt="logo" /></div>
-                    <div><img src="../public/small-percent-icon.svg" alt="logo" /></div>
+                    <div><img src="./small-game-icon.svg" alt="logo" /></div>
+                    <div><img src="./small-pay-icon.svg" alt="logo" /></div>
+                    <div><img src="./small-id-icon.svg" alt="logo" /></div>
+                    <div><img src="./small-trophy-icon.svg" alt="logo" /></div>
+                    <div><img src="./small-percent-icon.svg" alt="logo" /></div>
                 </div>
                 <div className='NewUserprogress mt-2'>
                 <ProgressBar now={0} />
@@ -35,7 +35,7 @@ const NewUser = () => {
             </main>
             <div className="NewUsersand-watch d-flex flex-row justify-content-center align-items-center fw-bold border border-1">
                 <div>
-                    <img src="../public/sand-watch.svg" alt="logo" />
+                    <img src="./sand-watch.svg" alt="logo" />
                 </div>
                 <div className='NewUserDays10 p-2'>
                     You have <span className='NewUser10'>10</span> days to complete!
@@ -47,7 +47,7 @@ const NewUser = () => {
                 </div>
                 <div className='NewUserchallenge-1 d-flex flex-row justify-content-between p-2'>
                     <div className='d-flex justify-content-center border border-1'>
-                        <img src="../public/big-challenge-game-icon.svg" alt="logo" /></div>
+                        <img src="./big-challenge-game-icon.svg" alt="logo" /></div>
                     <div className='NewUservisit d-flex flex-column justify-content-around border border-1'>
                         <div className='fw-bold ms-1'>Visit My Zone</div>
                         <div className='d-flex flex-row justify-content-between'>
@@ -59,7 +59,7 @@ const NewUser = () => {
                
                 <div className='NewUserchallenge-1 d-flex flex-row justify-content-between p-2'>
                     <div className='d-flex justify-content-center border border-1'>
-                        <img src="../public/Lock.svg" alt="logo" /></div>
+                        <img src="./Lock.svg" alt="logo" /></div>
                     <div className='NewUservisit d-flex flex-column justify-content-around border border-1'>
                         <div className='fw-bold ms-1'>Take a Quiz</div>
                         <div className='d-flex flex-row justify-content-between'>

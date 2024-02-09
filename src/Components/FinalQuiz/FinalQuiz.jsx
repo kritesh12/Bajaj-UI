@@ -7,7 +7,7 @@ const FinalQuiz = () => {
         <div className="FinalQuiz-box d-flex-column align-items-center mt-3">
             <div className="FinalQuiz-body d-flex flex-column align-items-center text-center mt-3">
                 <div>
-                <img src="../public/FinalImage.svg" alt="logo" />
+                <img src="./FinalImage.svg" alt="logo" />
                 </div>
                 <div className='FinalQuiz-Streak  d-flex flex-column'>
                     <h3>Your Score</h3>
