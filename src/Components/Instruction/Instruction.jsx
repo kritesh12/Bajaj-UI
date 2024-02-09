@@ -48,7 +48,7 @@ const Instruction = () => {
                         <div className='fw-bold ms-1'>Open My Zone</div>
                         <div className='d-flex flex-row justify-content-between'>
                             <div>Lorem ipsum lorem ipsum</div>
-                            <div className='Instructioncheck-now  fw-bold'><Link to='/Streak1'>Check now</Link></div>
+                            <div className='NewUsercheck-now  fw-bold'><Link to='/Streak1'>Check now</Link></div>
                         </div>
                     </div>
                 </div>
