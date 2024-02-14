@@ -74,7 +74,7 @@ const Streak2 = () => {
                         </div>
                     </div>
                 </div> */}
-                {/* <hr /> */}
+                <hr />
                 <footer>
                     <div className='Streak2challenge-2 mb-3 p-2'>
                     <Link to='/Streak3'> Challenge 2</Link>
