@@ -21,8 +21,8 @@ const Completed = () =>{
                 </div>
                 <div>
                     {data.success ?
-                    <p className='mt-5'>You’ve already completed this Streak</p>
-                    : <p className='mt-5'>Looks like you are not authenticated to launch this game</p>}
+                    <p className='Completedtext mt-5'>You’ve already completed this Streak</p>
+                    : <p className='Completedtext mt-5'>Looks like you are not authenticated to launch this game</p>}
                 </div>
             </div>
 
