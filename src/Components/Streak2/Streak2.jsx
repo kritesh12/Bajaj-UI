@@ -7,17 +7,15 @@ const Streak2 = () => {
 
 
     return (
-        <div>
-            <header>
-            </header>
+        <div className='Streak2-hero'>
             <main className='Streak2-main d-flex flex-column align-items-center justify-content-center p-3'>
-                <div>
-                    <h2>Streak Challenge is here!</h2>
+            <div className='Streak2-challenge-is-here'>
+                    Streak Challenge is here!
                 </div>
-                <div>
-                    <p>Complete challenges and unlock exciting rewards</p>
+                <div className='Streak2-Complete-challenges-and-unlock'>
+                    Complete challenges and unlock exciting rewards
                 </div>
-                <div className='mb-5'>
+                <div className='mb-4'>
                     <img src="./Bimg.svg" alt="logo" />
                 </div>
                 <div className='Streak2icons d-flex flex-row justify-content-around'>
@@ -39,17 +37,17 @@ const Streak2 = () => {
                 <div>
                     <img src="./sand-watch.svg" alt="logo" />
                 </div>
-                <div className='Streak2Days10'>
+                <div className='Streak2Days10 p-2'>
                 You have <span className='Streak210'>10</span> days to complete!
                 </div>
             </div>
             <div className='Streak2challenge-section d-flex flex-column align-items-start'>
-                <div className='Streak2challenge-1-text fw-bold me-5 mb-3 p-2'>
+                <div className='Streak2challenge-1-text me-5 mb-1 p-2'>
                     Challenge 1
                 </div>
                 
                 <div className='Streak2challenge-1 d-flex flex-row justify-content-between p-2'>
-                    <div className='Streak2challenge-next d-flex justify-content-center border border-1'>
+                    <div className='Streak2challenge-next d-flex justify-content-center'>
                         <img src="./CompletedgameIcon.svg" alt="logo" /></div>
                     <div className='Streak2visit d-flex flex-column justify-content-around '>
                         <div className='d-flex flex-row justify-content-between me-1'>

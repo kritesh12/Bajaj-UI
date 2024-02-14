@@ -6,17 +6,15 @@ import { Link } from 'react-router-dom';
 const NewUser = () => {
 
     return (
-        <div>
-            <header>
-            </header>
+        <div className='NewUser-hero'>
             <main className='NewUser-main d-flex flex-column align-items-center justify-content-center p-2'>
-                <div>
-                    <h2>Streak Challenge is here!</h2>
+                <div className='NewUser-challenge-is-here'>
+                    Streak Challenge is here!
                 </div>
-                <div>
-                    <p>Complete challenges and unlock exciting rewards</p>
+                <div className='NewUser-Complete-challenges-and-unlock'>
+                    Complete challenges and unlock exciting rewards
                 </div>
-                <div className='mb-5'>
+                <div className='mb-4'>
                     <img src="./Bimg.svg" alt="logo" />
                 </div>
                 <div className='NewUsericons d-flex flex-row justify-content-around p-2'>
@@ -43,35 +41,35 @@ const NewUser = () => {
                 </div>
             </div>
             <div className='NewUserchallenge-section d-flex flex-column align-items-start'>
-                <div className='NewUserchallenge-1-text p-2'>
+                <div className='NewUserchallenge-1-text p-1'>
                     Challenge 1
                 </div>
-                <div className='NewUserchallenge-1 d-flex flex-row justify-content-between p-2'>
-                    <div className='d-flex justify-content-center border border-1'>
+                <div className='NewUserchallenge-1 d-flex flex-row justify-content-between p-1'>
+                    <div className='NewUserbig-challenge d-flex justify-content-center border border-1'>
                         <img src="./big-challenge-game-icon.svg" alt="logo" /></div>
                     <div className='NewUservisit d-flex flex-column justify-content-around border border-1'>
                         <div className='fw-bold ms-1'>Visit My Zone</div>
                         <div className='d-flex flex-row justify-content-between'>
                             <div className='ms-1'>Lorem ipsum lorem ipsum</div>
-                            <div className='NewUsercheck-now  fw-bold'>Check now</div>
+                            <div className='NewUsercheck-now me-2'>Check now</div>
                         </div>
                     </div>
                 </div>
                
-                <div className='NewUserchallenge-1 d-flex flex-row justify-content-between p-2'>
+                <div className='NewUserchallenge-1 d-flex flex-row justify-content-between p-1'>
                     <div className='d-flex justify-content-center border border-1'>
-                        <img src="./Lock.svg" alt="logo" /></div>
+                        <img src="./Lock.svg" alt="logo" className='border border-1'/></div>
                     <div className='NewUservisit d-flex flex-column justify-content-around border border-1'>
                         <div className='fw-bold ms-1'>Take a Quiz</div>
                         <div className='d-flex flex-row justify-content-between'>
                             <div className='ms-1'>Lorem ipsum lorem ipsum</div>
-                            <div className='NewUserplay-now ms-3 fw-bold'><Link to="/Instruction">PLAY NOW</Link></div>
+                            <div className='NewUserplay-now me-2'><Link to="/Instruction">PLAY NOW</Link></div>
                         </div>
                     </div>
                 </div>
                 <hr />
                 <footer>
-                    <div className='NewUserchallenge-2 p-2'>
+                    <div className='NewUserchallenge-2 p-1'>
                         Challenge 2
                     </div>
                     <Overlay/>

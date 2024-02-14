@@ -4,10 +4,9 @@
     box-sizing: border-box;
 }
 
+.NewUser-hero{
+    font-family: Rubik;
 
-header{
-    height: 100px;
-    background-color: #002953;
 }
 
 .NewUser-main{
@@ -33,7 +32,7 @@ header{
 }
 
 .NewUsercheck-now{
-    font-weight: bolder;
+    font-weight: 500;
     color: #FF8900;
     /* border: 1px solid blue; */
     text-align: center;
@@ -44,7 +43,7 @@ header{
 }
 
 .NewUserplay-now{
-    font-weight: bolder;
+    font-weight: 500;
     color: #FFF;
     /* border: 1px solid blue; */
     text-align: center;
@@ -62,7 +61,7 @@ header{
 }
 
 .NewUsersand-watch{
-    font-size: 20px;
+    font-size: 18px;
     gap: 1%;
 }
 
@@ -70,14 +69,12 @@ header{
     font-size: 30px;
     width: 100%;
     margin: 0 auto;
-    font-weight: bold;
 }
 
 .NewUserchallenge-2{
     font-size: 30px;
     width: 100%;
     margin: 0 auto;
-    font-weight: bold;
     /* border: 1px solid; */
 }
 
@@ -98,7 +95,21 @@ header{
 
 .NewUser10{
     color: #FF8F00;
-    font-size: 28px;
+    font-size: 24px;
     
+}
+
+.NewUserbig-challenge{
+    border-right: none;
+}
+
+.NewUser-challenge-is-here{
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.NewUser-Complete-challenges-and-unlock{
+    font-weight: 400;
+    font-size: 0.8em;
 }
 

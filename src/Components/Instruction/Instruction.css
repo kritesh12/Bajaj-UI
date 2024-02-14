@@ -4,10 +4,8 @@
     box-sizing: border-box;
 }
 
-
-header{
-    height: 100px;
-    background-color: #002953;
+.Instruction-hero{
+    font-family: Rubik;
 }
 
 .Instruction-main{
@@ -51,4 +49,14 @@ header{
     text-decoration: none;
     color: #FF8900;
     background-color: #FFF2EA;
+}
+
+.Instruction-challenge-is-here{
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.Instruction-Complete-challenges-and-unlock{
+    font-weight: 400;
+    font-size: 0.8em;
 }

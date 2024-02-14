@@ -8,17 +8,15 @@ const Streak1 = () => {
 
 
     return (
-        <div>
-            <header>
-            </header>
+        <div className='Streak1-hero'>
             <main className='Streak1-main d-flex flex-column align-items-center justify-content-center p-3'>
-                <div>
-                    <h2>Streak Challenge is here!</h2>
+            <div className='Streak1-challenge-is-here'>
+                    Streak Challenge is here!
                 </div>
-                <div>
-                    <p>Complete challenges and unlock exciting rewards</p>
+                <div className='Streak1-Complete-challenges-and-unlock'>
+                    Complete challenges and unlock exciting rewards
                 </div>
-                <div className='mb-5'>
+                <div className='mb-4'>
                     <img src="./Bimg.svg" alt="logo" />
                 </div>
                 <div className='Streak1icons d-flex flex-row justify-content-around'>
@@ -45,11 +43,11 @@ const Streak1 = () => {
                 </div>
             </div>
             <div className='Streak1challenge-section d-flex flex-column align-items-start'>
-                <div className='Streak1challenge-1-text fw-bold me-5 mb-3 p-2'>
+                <div className='Streak1challenge-1-text me-5 mb-1 p-2'>
                     Challenge 1
                 </div>
                 <div className='Streak1challenge-1 d-flex flex-row justify-content-between p-2'>
-                    <div className='Streak1challenge-next d-flex justify-content-center border border-1'>
+                    <div className='Streak1challenge-next d-flex justify-content-center'>
                         <img src="./CompletedgameIcon.svg" alt="logo" /></div>
                     <div className='Streak1visit d-flex flex-column justify-content-around '>
                         <div className='d-flex flex-row justify-content-between me-1'>
@@ -65,19 +63,19 @@ const Streak1 = () => {
 
                 </div>
                 <div className='Streak1challenge-1 d-flex flex-row justify-content-between p-2'>
-                    <div className='d-flex justify-content-center border border-1'>
+                    <div className='d-flex justify-content-center'>
                         <img src="./Streak1ques.svg" alt="logo" /></div>
                     <div className='Streak1visit d-flex flex-column justify-content-around border border-1'>
                         <div className='fw-bold ms-1'>Quiz</div>
                         <div className='d-flex flex-row justify-content-between'>
                             <div className='ms-1'>Lorem ipsum lorem ipsum</div>
-                            <div className='Streak1check-now ms-3 fw-bold'><Link to='/Streak2'>Play now</Link></div>
+                            <div className='Streak1check-now ms-3 me-2'><Link to='/Streak2'>Play now</Link></div>
                         </div>
                     </div>
                 </div>
                 <hr />
                 <footer>
-                    <div className='Streak1challenge-2 fw-bold mb-3 p-2'>
+                    <div className='Streak1challenge-2 mb-3 p-2'>
                         Challenge 2
                     </div>
                     

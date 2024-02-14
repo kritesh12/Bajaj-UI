@@ -2,7 +2,7 @@ import './Overlay.css'
 
 const Overlay = () => {
     return (
-        <div>
+        <div className='Overlay-hero'>
             <div className='Overlay-main d-flex flex-row justify-content-center align-items-center p-2'>
                 <div>
                     <img src="./OverlayLock.svg" alt="logo" />

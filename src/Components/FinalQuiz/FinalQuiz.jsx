@@ -10,24 +10,25 @@ const FinalQuiz = () => {
                 <div>
                 <img src="./FinalImage.svg" alt="logo" />
                 </div>
-                <div className='FinalQuiz-Streak  d-flex flex-column'>
+                <div  className='FinalQuizredirecting mt-4'>
+                    Redirecting in 10 seconds...
+                </div>
+                <div className='FinalQuiz-Streak d-flex flex-column mt-4'>
                     <h3>Your Score</h3>
                      <h3>02</h3>
                 </div>
                 <div className='FinalQuizQues-ans d-flex flex-row justify-content-around'>
                     <div className='d-flex flex-column'>
-                        <div>Total Questions</div>
+                        <div  className='FinalQuizredirecting'>Total Questions</div>
                         <div>05</div>
                     </div>
                     <div className='d-flex flex-column'>
-                        <div>Correct Answer</div>
+                        <div className='FinalQuizredirecting'>Correct Answer</div>
                         <div>02</div>
                     </div>
 
                 </div>
-                <div>
-                    <p className='mt-5'>Redirecting in 10 seconds...</p>
-                </div>
+                
             </div>
 
         </div>

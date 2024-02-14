@@ -4,10 +4,8 @@
     box-sizing: border-box;
 }
 
-
-header{
-    height: 100px;
-    background-color: #002953;
+.Streak1-hero{
+    font-family: Rubik;
 }
 
 .Streak1-main{
@@ -34,7 +32,7 @@ header{
 }
 
 .Streak1check-now{
-    font-weight: bolder;
+    font-weight: 500;
     color: #FF8900;
     /* border: 1px solid blue; */
     text-align: center;
@@ -57,7 +55,7 @@ header{
     font-size: 30px;
     width: 100%;
     margin: 0 auto;
-    font-weight: 700;
+    font-weight: 500;
     /* border: 1px solid; */
 }
 
@@ -93,3 +91,15 @@ header{
     text-decoration: none;
     color: #FF8900;
 }
+
+.Streak1-challenge-is-here{
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.Streak1-Complete-challenges-and-unlock{
+    font-weight: 400;
+    font-size: 0.8em;
+}
+
+

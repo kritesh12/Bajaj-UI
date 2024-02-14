@@ -7,15 +7,13 @@ const Streak4 = () => {
 
 
     return (
-        <div>
-            <header>
-            </header>
+        <div className='Streak4-hero'>
             <main className='Streak4-main d-flex flex-column align-items-center justify-content-center p-3'>
-                <div>
-                    <h2>Streak Challenge is here!</h2>
+            <div className='Streak4-challenge-is-here'>
+                    Streak Challenge is here!
                 </div>
-                <div>
-                    <p>Complete challenges and unlock exciting rewards</p>
+                <div className='Streak4-Complete-challenges-and-unlock'>
+                    Complete challenges and unlock exciting rewards
                 </div>
                 <div className='mb-3'>
                     <img src="./Bimg.svg" alt="logo" />
@@ -45,11 +43,11 @@ const Streak4 = () => {
                 </div>
             </div>
             <div className='Streak4challenge-section d-flex flex-column align-items-between'>
-                <div className='Streak4challenge-1-text fw-bold me-5 mb-3 p-2'>
+                <div className='Streak4challenge-1-text me-5 mb-3 p-2'>
                     Challenge 1
                 </div>
                 <div className='Streak4challenge-1 d-flex flex-row justify-content-between p-2'>
-                        <div className='Streak4challenge-next d-flex justify-content-center border border-1'>
+                        <div className='Streak4challenge-next d-flex justify-content-center'>
                             <img src="./CompletedgameIcon.svg" alt="logo" /></div>
                         <div className='Streak4visit Streak4visit1 d-flex flex-column justify-content-around '>
                             <div className='d-flex flex-row justify-content-between me-1'>
@@ -66,12 +64,12 @@ const Streak4 = () => {
                 <hr />
 
                 <footer>
-                    <div className='Streak4challenge-1-text fw-bold me-5 mb-3 p-2'>
+                    <div className='Streak4challenge-1-text me-5 mb-3 p-2'>
                       <Link to='/FinalQuiz'>Challenge 2</Link>
                     </div>
 
                     <div className='Streak4challenge-1 d-flex flex-row justify-content-between p-2'>
-                    <div className='Streak4challenge-next d-flex justify-content-center border border-1'>
+                    <div className='Streak4challenge-next d-flex justify-content-center'>
                         <img src="./CompletedgameIcon.svg" alt="logo" /></div>
                     <div className='Streak4visit d-flex flex-column justify-content-around '>
                         <div className='d-flex flex-row justify-content-between me-1'>

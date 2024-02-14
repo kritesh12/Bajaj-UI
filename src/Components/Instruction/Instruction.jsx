@@ -8,18 +8,15 @@ const Instruction = () => {
     
        
     return (
-        <div>
-
-            <header>
-            </header>
+        <div className='Instruction-hero'>
             <main className='Instruction-main d-flex flex-column align-items-center justify-content-center p-2'>
-                <div>
-                    <h2>Streak Challenge is here!</h2>
+                <div className='Instruction-challenge-is-here'>
+                    Streak Challenge is here!
                 </div>
-                <div>
-                    <p>Complete challenges and unlock exciting rewards</p>
+                <div className='Instruction-Complete-challenges-and-unlock'>
+                    Complete challenges and unlock exciting rewards
                 </div>
-                <div className='mb-5'>
+                <div className='mb-4'>
                     <img src="./Bimg.svg" alt="logo" />
                 </div>
                 <div className='Instructionicons d-flex flex-row justify-content-around p-2'>
@@ -47,8 +44,8 @@ const Instruction = () => {
                     <div className='NewUservisit d-flex flex-column justify-content-around border border-1'>
                         <div className='fw-bold ms-1'>Open My Zone</div>
                         <div className='d-flex flex-row justify-content-between'>
-                            <div>Lorem ipsum lorem ipsum</div>
-                            <div className='NewUsercheck-now  fw-bold'><Link to='/Streak1'>Check now</Link></div>
+                            <div className='ms-1'>Lorem ipsum lorem ipsum</div>
+                            <div className='NewUsercheck-now'><Link to='/Streak1'>Check now</Link></div>
                         </div>
                     </div>
                 </div>

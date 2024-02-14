@@ -4,10 +4,8 @@
     box-sizing: border-box;
 }
 
-
-header{
-    height: 100px;
-    background-color: #002953;
+.Streak2-hero{
+    font-family: Rubik;
 }
 
 .Streak2-main{
@@ -57,7 +55,7 @@ header{
     font-size: 30px;
     width: 100%;
     margin: 0 auto;
-    font-weight: bold;
+    font-weight: 500;
     /* border: 1px solid; */
 }
 
@@ -93,3 +91,14 @@ header{
     text-decoration: none;
     color: black;
 }
+
+.Streak2-challenge-is-here{
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.Streak2-Complete-challenges-and-unlock{
+    font-weight: 400;
+    font-size: 0.8em;
+}
+
