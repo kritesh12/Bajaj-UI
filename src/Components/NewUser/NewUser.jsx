@@ -44,8 +44,8 @@ const NewUser = () => {
                 <div className='NewUserchallenge-1-text p-1'>
                     Challenge 1
                 </div>
-                <div className='NewUserchallenge-1 d-flex flex-row justify-content-between p-1'>
-                    <div className='NewUserbig-challenge d-flex justify-content-center border border-1'>
+                <div className='NewUserchallenge-1 d-flex flex-row justify-content-between p-1 mb-3'>
+                    <div className='NewUserbig-challenge d-flex justify-content-center'>
                         <img src="./big-challenge-game-icon.svg" alt="logo" /></div>
                     <div className='NewUservisit d-flex flex-column justify-content-around border border-1'>
                         <div className='fw-bold ms-1'>Visit My Zone</div>
@@ -57,7 +57,7 @@ const NewUser = () => {
                 </div>
                
                 <div className='NewUserchallenge-1 d-flex flex-row justify-content-between p-1'>
-                    <div className='d-flex justify-content-center border border-1'>
+                    <div className='d-flex justify-content-center'>
                         <img src="./Lock.svg" alt="logo" className='border border-1'/></div>
                     <div className='NewUservisit d-flex flex-column justify-content-around border border-1'>
                         <div className='fw-bold ms-1'>Take a Quiz</div>

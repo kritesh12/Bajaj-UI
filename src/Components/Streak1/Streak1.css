@@ -65,9 +65,14 @@
     border-radius: 10px;
 }
 
-.Streak1visit{
+.Streak1visitOpen{
     width: 500px;
     border: 1px solid #00846F;
+}
+
+.Streak1visitQuiz{
+    width: 500px;
+    /* border: 1px solid ; */
 }
 
 .Streak1Days10{
