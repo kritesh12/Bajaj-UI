@@ -35,12 +35,12 @@ const Instruction = () => {
                     </div>
                 </div>
             </main>
-            <div className='Instruction-challenge-1-text me-5 mb-3 p-2'>
+            <div className='challenge-1-text fw-bold me-5 mb-3 p-2'>
                     Challenge 1
                 </div>
                 <div className='NewUserchallenge-1 d-flex flex-row justify-content-between p-2'>
-                    <div className='big-challenge-BorderlessGameIcon d-flex justify-content-center p-3'>
-                        <img src="./big-challenge-BorderlessGameIcon.svg" alt="logo" /></div>
+                    <div className='d-flex justify-content-center border border-1'>
+                        <img src="./big-challenge-game-icon.svg" alt="logo" /></div>
                     <div className='NewUservisit d-flex flex-column justify-content-around border border-1'>
                         <div className='fw-bold ms-1'>Open My Zone</div>
                         <div className='d-flex flex-row justify-content-between'>
