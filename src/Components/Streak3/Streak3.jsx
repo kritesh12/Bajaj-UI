@@ -49,11 +49,11 @@ const Streak3 = () => {
                         <img src="./CompletedgameIcon.svg" alt="logo" /></div>
                     <div className='Streak3visit d-flex flex-column justify-content-around '>
                         <div className='d-flex flex-row justify-content-between me-1'>
-                            <div className='fw-bold ms-2'>Open My Zone</div>
+                            <div className='fw-bold ms-1'>Open My Zone</div>
                             <div className='Streak3completed d-flex justify-content-center p-1'>COMPLETED</div>
                         </div>
                         <div>
-                            <div className='ms-2'>Lorem ipsum lorem ipsum</div>
+                            <div className='ms-1'>Lorem ipsum lorem ipsum</div>
                         </div>
                     </div>
                 </div>
