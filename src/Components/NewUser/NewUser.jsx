@@ -45,8 +45,8 @@ const NewUser = () => {
                     Challenge 1
                 </div>
                 <div className='NewUserchallenge-1 d-flex flex-row justify-content-between p-1 mb-3'>
-                    <div className='NewUserbig-challenge d-flex justify-content-center'>
-                        <img src="./big-challenge-game-icon.svg" alt="logo" /></div>
+                    <div className='NewUserbig-challengeBorderlessGameIcon d-flex justify-content-center p-3'>
+                        <img src="./big-challenge-BorderlessGameIcon.svg" alt="logo" /></div>
                     <div className='NewUservisit d-flex flex-column justify-content-around border border-1'>
                         <div className='fw-bold ms-1'>Visit My Zone</div>
                         <div className='d-flex flex-row justify-content-between'>

@@ -60,7 +60,7 @@ const Streak2 = () => {
                     </div>
                 </div>
                 
-                <div className='Streak2challenge-1-text fw-bold me-5 mb-3 '>
+                <div className='Streak2challenge-1-text fw-bold me-5 mb-2 '>
 
                 </div>
                 {/* <div className='challenge-1 d-flex flex-row justify-content-between p-2'>

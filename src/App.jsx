@@ -17,15 +17,15 @@ function App() {
   return (
       <BrowserRouter>
         <Routes>
-        <Route path="/" element = {<Reward />} />
-        <Route path="/Completed" element = {<Completed />} />
-        <Route path="/NewUser" element = {<NewUser />} />
+        {/* <Route path="/" element = {<Reward />} /> */}
+        <Route path="/" element = {<NewUser />} />
         <Route path="/Instruction" element = {<Instruction />} />
         <Route path="/Streak1" element = {<Streak1 />} />
         <Route path="/Streak2" element = {<Streak2 />} />
         <Route path="/Streak3" element = {<Streak3 />} />
         <Route path="/Streak4" element = {<Streak4 />} />
         <Route path="/FinalQuiz" element = {<FinalQuiz />} />
+        <Route path="/Completed" element = {<Completed />} />
           
           {/* <Completed /> */}
           {/* <NewUser /> */}

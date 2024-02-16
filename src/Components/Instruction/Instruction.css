@@ -28,7 +28,7 @@
 .Instructionprogress{
     width: 100%;
     border: 1px solid #FF8900;
-    border-radius: 10px;
+    border-radius: 40px;
 }
 
 .Instructionstars {
@@ -59,4 +59,18 @@
 .Instruction-Complete-challenges-and-unlock{
     font-weight: 400;
     font-size: 0.8em;
+}
+
+.NewUserchallenge-1{
+    height: 100px;
+}
+
+.Instruction-challenge-1-text{
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.big-challenge-BorderlessGameIcon{
+    border: 1px solid #dee2e6;
+    border-right: none;
 }
