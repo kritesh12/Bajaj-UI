@@ -63,23 +63,13 @@ const Streak2 = () => {
                 <div className='Streak2challenge-1-text fw-bold me-5 mb-2 '>
 
                 </div>
-                {/* <div className='challenge-1 d-flex flex-row justify-content-between p-2'>
-                    <div className='d-flex justify-content-center border border-1'>
-                        <img src="./Lock.svg" alt="logo" /></div>
-                    <div className='visit d-flex flex-column justify-content-around border border-1'>
-                        <div className='fw-bold ms-1'>Take a Quiz</div>
-                        <div className='d-flex flex-row justify-content-between'>
-                            <div className='ms-1'>Lorem ipsum lorem ipsum</div>
-                            <div className='check-now ms-3 fw-bold'>Play now</div>
-                        </div>
-                    </div>
-                </div> */}
+               
                 <hr />
                 <footer>
                     <div className='Streak2challenge-2 mb-3 p-2'>
                     <Link to='/Streak3'> Challenge 2</Link>
                     </div>
-                    
+
                     <Overlay />
 
                 </footer>
