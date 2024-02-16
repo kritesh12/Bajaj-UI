@@ -79,7 +79,9 @@ const Streak2 = () => {
                     <div className='Streak2challenge-2 mb-3 p-2'>
                     <Link to='/Streak3'> Challenge 2</Link>
                     </div>
+                    
                     <Overlay />
+
                 </footer>
             </div>
         </div>
