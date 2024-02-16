@@ -51,7 +51,7 @@ const Streak2 = () => {
                         <img src="./CompletedgameIcon.svg" alt="logo" /></div>
                     <div className='Streak2visit d-flex flex-column justify-content-around '>
                         <div className='d-flex flex-row justify-content-between me-1'>
-                        <div className='fw-bold ms-1'>Challenge 1 completed</div>
+                        <div className='fw-bold ms-2'>Challenge 1 completed</div>
                         <div className='Streak2completed d-flex justify-content-center p-1'>COMPLETED</div>
                         </div>
                         <div>
